@@ -28,3 +28,17 @@ nav a,.connect,.btn{font-size:13px;font-weight:700}
 .tools span,.cap-grid p,.timeline h4{font-size:13px}
 @media(max-width:850px){.mini-stats{grid-template-columns:1fr 1fr}}
 @media(max-width:500px){.mini-stats{grid-template-columns:1fr 1fr}.mini-stats b{font-size:31px}.hero h1{font-size:clamp(48px,11vw,65px)}}
+
+/* Featured Priority Assist case study */
+.nlp-lede{font-size:18px!important;color:#f1dfe5!important;max-width:800px;line-height:1.7;margin:0 0 28px}
+.nlp-demo{margin-top:32px;padding:clamp(16px,3vw,34px);background:#fffaf4;color:#30232a;border-radius:12px}
+.nlp-demo-heading{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-bottom:22px;flex-wrap:wrap}
+.nlp-demo-heading h4{font-family:"Playfair Display",Georgia,serif;font-size:clamp(26px,3vw,38px);margin:5px 0 8px;color:#421b29;letter-spacing:-.025em}
+.nlp-demo-heading p{margin:0;color:#6c5960;font-size:14px}
+.demo-kicker{font-size:11px;letter-spacing:.12em;font-weight:800;color:#7a263f}
+.repo-link{background:#7a263f;color:#fff!important;border-radius:40px;text-decoration:none;padding:13px 20px;font-size:13px;font-weight:700;white-space:nowrap}
+.repo-link:hover{background:#52182d}
+.nlp-demo video{display:block;width:100%;max-height:650px;background:#211c20;border-radius:8px;aspect-ratio:1920/1032}
+.nlp-stack{display:flex;flex-wrap:wrap;gap:8px;margin-top:20px}
+.nlp-stack span{border:1px solid #d6bdc3;border-radius:20px;padding:7px 12px;color:#673c4c;font-size:12px;font-weight:700}
+@media(max-width:600px){.nlp-demo-heading{align-items:stretch}.repo-link{display:inline-block;text-align:center}.nlp-demo video{max-height:420px}}
